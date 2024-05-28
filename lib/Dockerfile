@@ -1,5 +1,5 @@
 FROM node:latest
-RUN git clone https://github.com/Alien-Alfa/WhatsBotAlfa-MD.git /root/ALFA/
+RUN git clone https://github.com/Nexxer777/WhatsBotAlfa-MD.git /root/ALFA/
 WORKDIR /root/ALFA/
 RUN yarn global add pm2
 RUN yarn
